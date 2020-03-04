@@ -1,7 +1,7 @@
 ### Project 1- OpenCV Arithmetic Operations and Alpha Channel Masking
 
 <p align="center">
-    <img width="600" height="300"
+    <img width="700" height="300"
      src="./Readme.jpg">
 </p>
 
