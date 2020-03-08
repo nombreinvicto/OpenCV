@@ -22,7 +22,7 @@ The `assignment_mouse.py` script serves as source code for the demonstration
 
 
  <p align="center">
-    <img width="600" height="300"
+    <img width="600" height="500"
      src="./assignment3.gif">
 </p>
 
