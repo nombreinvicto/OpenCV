@@ -16,6 +16,13 @@ This repository contains a Jupyter notebook showcasing the implementation of
     the underlying algorithms in work when these operations are performed
     .  A comparison with the OpenCV implementation results are also done as
      a sanity check of the numpy based results.
+     
+The following links show movies of the morphological dilators and eroders in
+ action on a 10x10 pixel grayscale image with a 3x3 ellipsoidal kernel.
+ 
+ 1. ![Dilation](https://youtu.be/uPQfcE9wekI)
+ 2. ![Erosion](https://youtu.be/13uv6q7CtS4)
+     
 
 
 Technology Used:
