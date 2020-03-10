@@ -1,7 +1,7 @@
 ### Project 3- Implementation of Morphological Dilation and Erosion from Scratch
 
 <p align="center">
-    <img width="600" height="500"
+    <img width="800" height="500"
      src="https://miro.medium.com/max/3072/1*qxA_VWaV1Cd0dXN3DVuHtg.png">
 </p>
 
