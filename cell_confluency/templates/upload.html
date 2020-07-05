@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>Upload Image</h1>
+        </div>
+        <div class="card-body">
+            <form action="/image_upload" enctype="multipart/form-data"
+                  method="post">
+                <div class="form-group">
+                    <input type="file" name="file"
+                           class="btn btn-primary btn-lg active">
+                    <input type="submit" value="Upload"
+                           class="btn btn-outline-success">
+                </div>
+            </form>
+        </div>
+        <div class="card-footer text-muted">
+            Cell Confluency Image Upload Center
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block js %}
+{% endblock %}
+
+{% block css %}
+{% endblock %}

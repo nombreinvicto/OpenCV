@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>Calculate Confluency</h1>
+        </div>
+        <div class="card-body">
+            <img src="../static/cellCulture.ico" class="card-img-top
+            image-style" id="cultureImage">
+            <div class="card-body">
+                {#                <h5 class="card-title">Culture Picture</h5>#}
+                <p class="card-text" id="cell_type_op">
+                    Cell Type = {{ cell_type }}</p>
+                <p class="card-text" id="calculated_confluency_op">
+                    Calculated Confluency = {{ confluency }} %</p>
+                <p class="card-text" id="overgrow_estimation_op">
+                    Overgrow Estimation = {{ overgrow_estim }} </p>
+                <table>
+                    <tr>
+                        <td>
+                            <select id="selectImage">
+                                <option value="0">Please choose an Image
+                                </option>
+                            </select>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary"
+                               id="showImageButton">Show Image</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary"
+                               id="calculateConfluency">Get Confluency!</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="proliferation_hr"
+                                   placeholder="Proliferation in Hrs">
+                        </td>
+                        <td>
+                            <a class="btn btn-primary"
+                               id="estimateOvergrow">Overgrow Estimation</a>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            Cell Confluency Calculation Center
+        </div>
+    </div>
+
+{% endblock %}
+
+
+
+{% block js %}
+    <script src="../static/js/calculate_confluency.js"></script>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="../static/css/calculate_confluency.css">
+{% endblock %}
